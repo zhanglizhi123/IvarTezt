@@ -34,6 +34,7 @@
     }];
     [self.btnDe addTarget:self action:@selector(showList:) forControlEvents:UIControlEventTouchUpInside];
     
+    //使用
     self.arr = [@[@"你好",@"很好",@"哈哈哈哈",@"哈哈哈哈哈哈",@"去去"] mutableCopy];
     
 }
